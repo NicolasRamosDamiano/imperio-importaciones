@@ -1,0 +1,110 @@
+{
+    "numbre": "Productos",
+    "data": [
+        {
+            "id": 1,
+            "nombre": "Camisa",
+            "precio": 25.99,
+            "descripcion": "Camisa de algodón de alta calidad.",
+            "imagen": "pato.webp"
+        },
+        {
+            "id": 2,
+            "nombre": "Pantalones",
+            "precio": 45.50,
+            "descripcion": "Pantalones cómodos y duraderos.",
+            "imagen": "pantalones.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Zapatos",
+            "precio": 75.00,
+            "descripcion": "Zapatos elegantes para todas las ocasiones.",
+            "imagen": "zapatos.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Gorra",
+            "precio": 12.99,
+            "descripcion": "Gorra ajustable con diseño moderno.",
+            "imagen": "gorra.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Mochila",
+            "precio": 39.99,
+            "descripcion": "Mochila resistente al agua.",
+            "imagen": "mochila.jpg"
+        },
+        {
+            "id": 6,
+            "nombre": "Reloj",
+            "precio": 89.90,
+            "descripcion": "Reloj deportivo resistente.",
+            "imagen": "reloj.jpg"
+        },
+        {
+            "id": 7,
+            "nombre": "Lentes de sol",
+            "precio": 19.99,
+            "descripcion": "Lentes con protección UV.",
+            "imagen": "lentes.jpg"
+        },
+        {
+            "id": 8,
+            "nombre": "Bufanda",
+            "precio": 14.50,
+            "descripcion": "Bufanda suave de lana.",
+            "imagen": "bufanda.jpg"
+        },
+        {
+            "id": 9,
+            "nombre": "Cinturón",
+            "precio": 22.00,
+            "descripcion": "Cinturón de cuero genuino.",
+            "imagen": "cinturon.jpg"
+        },
+        {
+            "id": 10,
+            "nombre": "Campera",
+            "precio": 120.00,
+            "descripcion": "Campera térmica para invierno.",
+            "imagen": "campera.jpg"
+        },
+        {
+            "id": 11,
+            "nombre": "Medias",
+            "precio": 5.99,
+            "descripcion": "Medias de algodón confort.",
+            "imagen": "medias.jpg"
+        },
+        {
+            "id": 12,
+            "nombre": "Short",
+            "precio": 18.50,
+            "descripcion": "Short deportivo ligero.",
+            "imagen": "short.jpg"
+        },
+        {
+            "id": 13,
+            "nombre": "Guantes",
+            "precio": 9.99,
+            "descripcion": "Guantes térmicos.",
+            "imagen": "guantes.jpg"
+        },
+        {
+            "id": 14,
+            "nombre": "Laptop Bag",
+            "precio": 49.99,
+            "descripcion": "Bolso acolchado para laptop.",
+            "imagen": "laptopbag.jpg"
+        },
+        {
+            "id": 15,
+            "nombre": "Auriculares",
+            "precio": 29.99,
+            "descripcion": "Auriculares inalámbricos.",
+            "imagen": "auriculares.jpg"
+        }
+    ]
+}

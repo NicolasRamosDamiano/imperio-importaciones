@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+ background-color: #f8f9fa;
+    color: #333;
+}
+
+.logo {
+    background: ;
+    background-image: url('imperio importaciones.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: #001345;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+header a:hover {
+    color: #d4af37; 
+}
+header .logo:hover {
+    transform: scale(1.10);
+}
+
+.filtrador {
+    margin: 20px;
+    flex-grow: 1;
+    padding: 12px 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px; 
+    outline: none;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+    transition: border-color 0.3s;
+}
+.filtrador:focus {
+    border-color: #021344;
+}
+
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+
+}
+
+.producto h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.producto p {
+    margin: 5px 0;
+    color: #555;
+}
+.producto .precio {
+    font-size: 20px;
+    color: #e91e63;
+    font-weight: bold;
+}
+.producto img {
+    size: cover;
+    width: 220px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+button {
+  background: #0c4a6e;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-weight: 600;
+  transition: .3s;
+}
+
+button:hover {
+  background: #0369a1;
+}
+
+
+
+
+.oculto {
+    display: none;
+}
+
+.filtros {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.filtros input {
+    padding: 8px;
+    flex: 1;
+}
+
+.filtros button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #021344;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
