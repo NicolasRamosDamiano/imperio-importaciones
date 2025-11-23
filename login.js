@@ -1,6 +1,6 @@
 const form = document.querySelector("form");
 
-form.addEventListener("submit", (e) => {
+form.addEventListener("submit", async (e) => {
   e.preventDefault();
 
   const email = document.getElementById("exampleInputEmail1").value;
@@ -11,10 +11,22 @@ form.addEventListener("submit", (e) => {
     return;
   }
 
-  localStorage.setItem("userEmail", email);
-  localStorage.setItem("userPass", pass);
-  localStorage.setItem("verified", "true");
+  try {
+    const res = await fetch("http://localhost:3000/usuarios", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, password: pass }),
+    });
 
-  alert("Guardado");
-  window.location.href = "index.html";
+    const data = await res.json();
+
+    if (data.ok) {
+      alert("Guardado en la base");
+      window.location.href = "index.html";
+    } else {
+      alert("Error guardando");
+    }
+  } catch (err) {
+    alert("No se pudo conectar al servidor");
+  }
 });
