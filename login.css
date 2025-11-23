@@ -1,0 +1,49 @@
+.logo img{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+}
+.logo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form {
+  width: 300px;
+  margin: 60px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  background: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
